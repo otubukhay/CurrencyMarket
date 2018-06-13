@@ -14,6 +14,14 @@ namespace PepCore.Model
         private IEnumerable<IEnumerable<object>> rows = new List<List<object>>();
         private string tableName;
         private IEnumerable<string> errors;
+        private long dataSize;
+
+        public long DataSize
+        {
+            get { return dataSize; }
+            set { dataSize = value; }
+        }
+
 
         public IEnumerable<string> Errors
         {
