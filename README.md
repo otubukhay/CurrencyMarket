@@ -1,2 +1,0 @@
-# CurrencyMarket
-Test Project
